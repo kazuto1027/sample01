@@ -1,0 +1,253 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.inr {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.page-header__inr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header__logo img {
+    width: 100px;
+}
+
+.page-header-info__txt span {
+    display: block;
+}
+
+.page-header__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header-info__btn {
+    margin-left: 50px;
+    padding: 20px;
+    border: 4px solid#668ad8;
+    background-color: #668ad8;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+.page-header-info__txt {
+    padding: 10px;
+    border: 4px solid#668ad8;
+    background-color: #668ad8;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.page-footer {
+    padding: 40px 0;
+    background-color: gray;
+}
+
+.page-footer small {
+    font-size: 1.2em;
+}
+
+.main-visual {
+    position: relative;
+    background-image: url(C00125-001B.jpg);
+    background-size: cover;
+    height: 720px;
+}
+
+.main-visual__ttl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-weight: normal;
+    font-size: 70px;
+    font-family: "YuGothic", "游ゴシック";
+    transform: translate(-50%, -50%);
+}
+
+.section-header {
+    padding: 30px 0;
+    text-align: center;
+    background: gray;
+}
+
+.section-header__ttl {
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.intro-section__nav ol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-section__nav {
+    padding: 80px 0 80px;
+}
+
+.intro-section__nav ol li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 230px;
+    padding: 0 25px;
+    color: #000;
+    font-size: 25px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.intro-section__block {
+    display: flex;
+    height: 400px;
+}
+
+
+/* 偶数の場合並び順を逆に */
+
+.intro-section__block:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.intro-section__block>* {
+    width: 50%;
+}
+
+.intro-section__block:nth-child(1) .intro-section__img {
+    background-image: url(bus0034-001.jpg);
+}
+
+.intro-section__block:nth-child(2) .intro-section__img {
+    background-image: url(bus0060-003.jpg);
+}
+
+.intro-section__block:nth-child(3) .intro-section__img {
+    background-image: url(harinezumiIMGL8740_TP_V.jpg);
+}
+
+
+/* 画像エリア */
+
+.intro-section__img {
+    background: center center no-repeat;
+    background-size: cover;
+}
+
+
+/* 文章エリア */
+
+.intro-section__txt {
+    box-sizing: border-box;
+    color: #fff;
+    background-color: gray;
+}
+
+
+/* タイトル */
+
+.intro-section__txt h4 {
+    font-size: 1.2rem;
+}
+
+
+/* 文章 */
+
+.intro-section__txt p {
+    font-size: 1rem;
+}
+
+.intro-section__contact {
+    padding: 50px 0;
+}
